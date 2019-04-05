@@ -4,13 +4,13 @@ Check the status of some website.
 
 ## Installation
 
-```python
+```bash
 pip install onweb
 ```
 
 ## Documentation
 
-```python
+```bash
 $ onweb https://google.com https://www.google.com
 301     https://google.com
 200     https://www.google.com
