@@ -4,7 +4,7 @@ import setuptools  # type: ignore
 
 info = dict(
     name="onweb",
-    version="1.0.0",
+    version="0.5.0",
     description="Check the status of some website.",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
