@@ -5,7 +5,7 @@ Check the status of some website.
 ## Installation
 
 ```bash
-pip install onweb
+$ pip install onweb
 ```
 
 ## Documentation
