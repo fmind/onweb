@@ -1,0 +1,16 @@
+black
+coverage
+docutils
+invoke
+ipdb
+ipython
+isort
+mypy
+pdoc
+pip>=18
+pylint
+pytest
+pytest-asyncio
+setuptools>=40
+twine
+wheel

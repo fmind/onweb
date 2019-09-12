@@ -8,8 +8,9 @@ from aiohttp import ClientResponse, ClientSession
 URL = str
 
 
-async def check(session: ClientSession, url: URL,
-                redirect: bool = False) -> ClientResponse:
+async def check(
+    session: ClientSession, url: URL, redirect: bool = False
+) -> ClientResponse:
     """Check the status of a website."""
     async with session.head(url, allow_redirects=redirect) as response:
         return response

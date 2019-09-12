@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import setuptools  # type: ignore
 
-info = dict(
+META = dict(
     name="onweb",
-    version="0.5.0",
+    version="0.6.0",
     description="Check the status of some website.",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
@@ -15,11 +15,10 @@ info = dict(
     packages=["onweb"],
     keywords="check status website",
     classifiers=["Development Status :: 4 - Beta"],
-    entry_points={"console_scripts": ["onweb=onweb.__main__:main "]},
-    setup_requires=["tox"],
-    python_requires=">=3.6",
+    entry_points={"console_scripts": ["onweb=onweb.__main__:main"]},
+    python_requires=">=3.7",
     install_requires=["aiohttp"],
 )
 
 if __name__ == "__main__":
-    setuptools.setup(**info)
+    setuptools.setup(**META)

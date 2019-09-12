@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """Check the status of some website."""
 
 import argparse
